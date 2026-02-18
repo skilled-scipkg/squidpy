@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "squidpy-release",
+    "squidpy-api-and-scripting",
+    "squidpy-build-and-install",
+    "squidpy-spelling-wordlist",
+    "squidpy-release-notes",
+    "squidpy-references"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/squidpy-release.md",
+    "skills/.evidence/squidpy-api-and-scripting.md",
+    "skills/.evidence/squidpy-build-and-install.md",
+    "skills/.evidence/squidpy-spelling-wordlist.md",
+    "skills/.evidence/squidpy-release-notes.md",
+    "skills/.evidence/squidpy-references.md"
+  ]
+}

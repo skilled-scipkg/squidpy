@@ -1,0 +1,95 @@
+{
+  "compiled_package_id": "squidpy",
+  "evidence": {
+    "core_skills": [
+      "squidpy-release",
+      "squidpy-api-and-scripting",
+      "squidpy-build-and-install",
+      "squidpy-spelling-wordlist",
+      "squidpy-release-notes",
+      "squidpy-references"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/squidpy-release.md",
+      "skills/.evidence/squidpy-api-and-scripting.md",
+      "skills/.evidence/squidpy-build-and-install.md",
+      "skills/.evidence/squidpy-spelling-wordlist.md",
+      "skills/.evidence/squidpy-release-notes.md",
+      "skills/.evidence/squidpy-references.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Tutorial and example-style material is located in docs/notebooks.",
+      "Dry-run generation works with explicit dirs for this layout."
+    ],
+    "package_name": "squidpy",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "docs/notebooks"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/squidpy-squidpy",
+  "validation": {
+    "core_skills_checked": [
+      "squidpy-release",
+      "squidpy-advanced-topics",
+      "squidpy-getting-started",
+      "squidpy-build-and-install",
+      "squidpy-api-and-scripting"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/squidpy-squidpy/skills/squidpy-release/SKILL.md: missing `## High-Signal Playbook` section.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/squidpy-squidpy/skills/squidpy-advanced-topics/SKILL.md: missing `## High-Signal Playbook` section.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/squidpy-squidpy/skills/squidpy-getting-started/SKILL.md: missing `## High-Signal Playbook` section.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/squidpy-squidpy/skills/squidpy-build-and-install/SKILL.md: missing `## High-Signal Playbook` section.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/squidpy-squidpy/skills/squidpy-api-and-scripting/SKILL.md: missing `## High-Signal Playbook` section."
+    ],
+    "index_skills": [
+      "squidpy-index"
+    ],
+    "ok": false,
+    "skills_total": 6,
+    "source_links_total": 69,
+    "topic_skills": 5,
+    "warnings": []
+  }
+}
